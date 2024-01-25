@@ -1,0 +1,1006 @@
+anchor.gene.id	anchor.gene.symbol	task.id	task.description
+ENSG00000267855	NDUFA7	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000212907	MT-ND4L	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198695	MT-ND6	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000099795	NDUFB7	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000167792	NDUFV1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000174886	NDUFA11	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000164258	NDUFS4	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000131495	NDUFA2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198888	MT-ND1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000145494	NDUFS6	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000166136	NDUFB8	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000147684	NDUFB9	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000147123	NDUFB11	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198840	MT-ND3	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198763	MT-ND2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000184752	NDUFA12	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000158864	NDUFS2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000110717	NDUFS8	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000189043	NDUFA4	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000119013	NDUFB3	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000140990	NDUFB10	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198886	MT-ND4	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000160194	NDUFV3	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000213619	NDUFS3	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000139180	NDUFA9	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000004779	NDUFAB1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000128609	NDUFA5	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000023228	NDUFS1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000119421	NDUFA8	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000130414	NDUFA10	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000125356	NDUFA1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000178127	NDUFV2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000170906	NDUFA3	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000183648	NDUFB1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000184983	NDUFA6	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000115286	NDUFS7	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000198786	MT-ND5	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000168653	NDUFS5	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000186010	NDUFA13	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000090266	NDUFB2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000136521	NDUFB5	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000151366	NDUFC2	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000165264	NDUFB6	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000109390	NDUFC1	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000065518	NDUFB4	X1	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+ENSG00000084774	CAD	X10	Cytidine triphosphate synthesis (CTP)
+ENSG00000114491	UMPS	X10	Cytidine triphosphate synthesis (CTP)
+ENSG00000102967	DHODH	X10	Cytidine triphosphate synthesis (CTP)
+ENSG00000162368	CMPK1	X10	Cytidine triphosphate synthesis (CTP)
+ENSG00000124713	GNMT	X100	Homocysteine synthesis (need methionine)
+ENSG00000116761	CTH	X101	Homocysteine degradation
+ENSG00000160200	CBS	X101	Homocysteine degradation
+ENSG00000138029	HADHB	X102	Isoleucine degradation
+ENSG00000084754	HADHA	X102	Isoleucine degradation
+ENSG00000248098	BCKDHA	X102	Isoleucine degradation
+ENSG00000142046	TMEM91	X102	Isoleucine degradation
+ENSG00000127884	ECHS1	X102	Isoleucine degradation
+ENSG00000083123	BCKDHB	X102	Isoleucine degradation
+ENSG00000113790	EHHADH	X102	Isoleucine degradation
+ENSG00000167315	ACAA2	X102	Isoleucine degradation
+ENSG00000248098	BCKDHA	X103	Leucine degradation
+ENSG00000078070	MCCC1	X103	Leucine degradation
+ENSG00000083123	BCKDHB	X103	Leucine degradation
+ENSG00000131844	MCCC2	X103	Leucine degradation
+ENSG00000148090	AUH	X103	Leucine degradation
+ENSG00000142046	TMEM91	X103	Leucine degradation
+ENSG00000148090	AUH	X104	Conversion of leucine to acetyl-coA
+ENSG00000142046	TMEM91	X104	Conversion of leucine to acetyl-coA
+ENSG00000248098	BCKDHA	X104	Conversion of leucine to acetyl-coA
+ENSG00000083123	BCKDHB	X104	Conversion of leucine to acetyl-coA
+ENSG00000131844	MCCC2	X104	Conversion of leucine to acetyl-coA
+ENSG00000078070	MCCC1	X104	Conversion of leucine to acetyl-coA
+ENSG00000109576	AADAT	X105	Lysine degradation
+ENSG00000127884	ECHS1	X105	Lysine degradation
+ENSG00000072506	HSD17B10	X105	Lysine degradation
+ENSG00000084754	HADHA	X105	Lysine degradation
+ENSG00000119689	DLST	X105	Lysine degradation
+ENSG00000105607	GCDH	X105	Lysine degradation
+ENSG00000138796	HADH	X105	Lysine degradation
+ENSG00000164904	ALDH7A1	X105	Lysine degradation
+ENSG00000091140	DLD	X105	Lysine degradation
+ENSG00000113790	EHHADH	X105	Lysine degradation
+ENSG00000008311	AASS	X106	Conversion of lysine to L-Saccharopine
+ENSG00000115286	NDUFS7	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000160194	NDUFV3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000241837	ATP5PO	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198899	MT-ATP6	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000152234	ATP5F1A	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198888	MT-ND1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000184983	NDUFA6	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000164405	UQCRQ	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000145494	NDUFS6	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000147123	NDUFB11	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000004779	NDUFAB1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000169021	UQCRFS1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000164258	NDUFS4	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198886	MT-ND4	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198804	MT-CO1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000189043	NDUFA4	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000165629	ATP5F1C	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000180389	ATP5F1EP2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000186010	NDUFA13	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000127540	UQCR11	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000241468	ATP5MF	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000010256	UQCRC1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000228253	MT-ATP8	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000167283	ATP5MG	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000159199	ATP5MC1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000169020	ATP5ME	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000131495	NDUFA2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000170906	NDUFA3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000166136	NDUFB8	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000213619	NDUFS3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198840	MT-ND3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000135821	GLUL	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000124172	ATP5F1E	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000110717	NDUFS8	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000173915	ATP5MK	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000174886	NDUFA11	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000179091	CYC1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000173660	UQCRH	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000140990	NDUFB10	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000135940	COX5B	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198786	MT-ND5	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198727	MT-CYB	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000116459	ATP5PB	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000131174	COX7B	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000184076	UQCR10	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000184752	NDUFA12	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000183648	NDUFB1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000151366	NDUFC2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000099795	NDUFB7	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000156411	ATP5MJ	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000023228	NDUFS1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000119013	NDUFB3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000178741	COX5A	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000109390	NDUFC1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000156467	UQCRB	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000154723	ATP5PF	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000139180	NDUFA9	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000128609	NDUFA5	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000167863	ATP5PD	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000178127	NDUFV2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000130414	NDUFA10	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000099624	ATP5F1D	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000136521	NDUFB5	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000135390	ATP5MC2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198938	MT-CO3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000125356	NDUFA1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000090266	NDUFB2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198695	MT-ND6	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000104951	IL4I1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000165264	NDUFB6	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198712	MT-CO2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000170516	COX7B2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000167792	NDUFV1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000164904	ALDH7A1	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000140740	UQCRC2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000147684	NDUFB9	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000249222	ATP5MGL	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000198763	MT-ND2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000176340	COX8A	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000168653	NDUFS5	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000154518	ATP5MC3	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000110955	ATP5F1B	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000008311	AASS	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000164919	COX6C	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000065518	NDUFB4	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000119421	NDUFA8	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000127184	COX7C	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000212907	MT-ND4L	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000267855	NDUFA7	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000158864	NDUFS2	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000183032	SLC25A21	X107	Conversion of lysine to L-2-Aminoadipate
+ENSG00000139180	NDUFA9	X108	Methionine degradation
+ENSG00000186010	NDUFA13	X108	Methionine degradation
+ENSG00000159199	ATP5MC1	X108	Methionine degradation
+ENSG00000125356	NDUFA1	X108	Methionine degradation
+ENSG00000241837	ATP5PO	X108	Methionine degradation
+ENSG00000169020	ATP5ME	X108	Methionine degradation
+ENSG00000198886	MT-ND4	X108	Methionine degradation
+ENSG00000166136	NDUFB8	X108	Methionine degradation
+ENSG00000145494	NDUFS6	X108	Methionine degradation
+ENSG00000165629	ATP5F1C	X108	Methionine degradation
+ENSG00000147123	NDUFB11	X108	Methionine degradation
+ENSG00000160200	CBS	X108	Methionine degradation
+ENSG00000131495	NDUFA2	X108	Methionine degradation
+ENSG00000124172	ATP5F1E	X108	Methionine degradation
+ENSG00000160194	NDUFV3	X108	Methionine degradation
+ENSG00000119013	NDUFB3	X108	Methionine degradation
+ENSG00000198786	MT-ND5	X108	Methionine degradation
+ENSG00000173915	ATP5MK	X108	Methionine degradation
+ENSG00000099624	ATP5F1D	X108	Methionine degradation
+ENSG00000004779	NDUFAB1	X108	Methionine degradation
+ENSG00000151366	NDUFC2	X108	Methionine degradation
+ENSG00000140990	NDUFB10	X108	Methionine degradation
+ENSG00000198888	MT-ND1	X108	Methionine degradation
+ENSG00000174886	NDUFA11	X108	Methionine degradation
+ENSG00000198840	MT-ND3	X108	Methionine degradation
+ENSG00000116459	ATP5PB	X108	Methionine degradation
+ENSG00000110955	ATP5F1B	X108	Methionine degradation
+ENSG00000184983	NDUFA6	X108	Methionine degradation
+ENSG00000065518	NDUFB4	X108	Methionine degradation
+ENSG00000164258	NDUFS4	X108	Methionine degradation
+ENSG00000241468	ATP5MF	X108	Methionine degradation
+ENSG00000023228	NDUFS1	X108	Methionine degradation
+ENSG00000154723	ATP5PF	X108	Methionine degradation
+ENSG00000130414	NDUFA10	X108	Methionine degradation
+ENSG00000189043	NDUFA4	X108	Methionine degradation
+ENSG00000228253	MT-ATP8	X108	Methionine degradation
+ENSG00000115286	NDUFS7	X108	Methionine degradation
+ENSG00000152234	ATP5F1A	X108	Methionine degradation
+ENSG00000213619	NDUFS3	X108	Methionine degradation
+ENSG00000167863	ATP5PD	X108	Methionine degradation
+ENSG00000180389	ATP5F1EP2	X108	Methionine degradation
+ENSG00000178127	NDUFV2	X108	Methionine degradation
+ENSG00000170906	NDUFA3	X108	Methionine degradation
+ENSG00000147684	NDUFB9	X108	Methionine degradation
+ENSG00000167283	ATP5MG	X108	Methionine degradation
+ENSG00000116761	CTH	X108	Methionine degradation
+ENSG00000198695	MT-ND6	X108	Methionine degradation
+ENSG00000183648	NDUFB1	X108	Methionine degradation
+ENSG00000090266	NDUFB2	X108	Methionine degradation
+ENSG00000109390	NDUFC1	X108	Methionine degradation
+ENSG00000128609	NDUFA5	X108	Methionine degradation
+ENSG00000110717	NDUFS8	X108	Methionine degradation
+ENSG00000154518	ATP5MC3	X108	Methionine degradation
+ENSG00000198899	MT-ATP6	X108	Methionine degradation
+ENSG00000167792	NDUFV1	X108	Methionine degradation
+ENSG00000168653	NDUFS5	X108	Methionine degradation
+ENSG00000158864	NDUFS2	X108	Methionine degradation
+ENSG00000156411	ATP5MJ	X108	Methionine degradation
+ENSG00000267855	NDUFA7	X108	Methionine degradation
+ENSG00000099795	NDUFB7	X108	Methionine degradation
+ENSG00000212907	MT-ND4L	X108	Methionine degradation
+ENSG00000198763	MT-ND2	X108	Methionine degradation
+ENSG00000165264	NDUFB6	X108	Methionine degradation
+ENSG00000136521	NDUFB5	X108	Methionine degradation
+ENSG00000135390	ATP5MC2	X108	Methionine degradation
+ENSG00000184752	NDUFA12	X108	Methionine degradation
+ENSG00000249222	ATP5MGL	X108	Methionine degradation
+ENSG00000119421	NDUFA8	X108	Methionine degradation
+ENSG00000143774	GUK1	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000163655	GMPS	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000128059	PPAT	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000138363	ATIC	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000128050	PAICS	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000178921	PFAS	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000159131	GART	X11	Guanosine triphosphate synthesis (GTP)
+ENSG00000065154	OAT	X111	Synthesis of ornithine from glutamine
+ENSG00000116649	SRM	X112	Synthesis of spermidine from ornithine
+ENSG00000115758	ODC1	X112	Synthesis of spermidine from ornithine
+ENSG00000123505	AMD1	X112	Synthesis of spermidine from ornithine
+ENSG00000111669	TPI1	X113	Serine synthesis
+ENSG00000135069	PSAT1	X113	Serine synthesis
+ENSG00000103876	FAH	X115	Phenylalanine degradation
+ENSG00000171759	PAH	X115	Phenylalanine degradation
+ENSG00000091483	FH	X115	Phenylalanine degradation
+ENSG00000100577	GSTZ1	X115	Phenylalanine degradation
+ENSG00000039123	MTREX	X115	Phenylalanine degradation
+ENSG00000113924	HGD	X115	Phenylalanine degradation
+ENSG00000158104	HPD	X115	Phenylalanine degradation
+ENSG00000132437	DDC	X116	Phenylalanine to phenylacetaldehyde
+ENSG00000132437	DDC	X117	Phenylalanine to phenylacetyl-L-glutaminate
+ENSG00000171759	PAH	X118	Phenylalanine to tyrosine
+ENSG00000159423	ALDH4A1	X119	Proline synthesis
+ENSG00000173599	PC	X119	Proline synthesis
+ENSG00000111669	TPI1	X119	Proline synthesis
+ENSG00000062485	CS	X119	Proline synthesis
+ENSG00000102967	DHODH	X12	Uridine triphosphate synthesis (UTP)
+ENSG00000084774	CAD	X12	Uridine triphosphate synthesis (UTP)
+ENSG00000114491	UMPS	X12	Uridine triphosphate synthesis (UTP)
+ENSG00000162368	CMPK1	X12	Uridine triphosphate synthesis (UTP)
+ENSG00000159423	ALDH4A1	X120	Proline degradation
+ENSG00000159423	ALDH4A1	X121	Synthesis of proline from glutamine
+ENSG00000117009	KMO	X123	Tryptophan degradation
+ENSG00000138796	HADH	X123	Tryptophan degradation
+ENSG00000105607	GCDH	X123	Tryptophan degradation
+ENSG00000162882	HAAO	X123	Tryptophan degradation
+ENSG00000072506	HSD17B10	X123	Tryptophan degradation
+ENSG00000113790	EHHADH	X123	Tryptophan degradation
+ENSG00000091140	DLD	X123	Tryptophan degradation
+ENSG00000084754	HADHA	X123	Tryptophan degradation
+ENSG00000127884	ECHS1	X123	Tryptophan degradation
+ENSG00000115919	KYNU	X123	Tryptophan degradation
+ENSG00000119689	DLST	X123	Tryptophan degradation
+ENSG00000153086	ACMSD	X123	Tryptophan degradation
+ENSG00000183077	AFMID	X123	Tryptophan degradation
+ENSG00000183032	SLC25A21	X123	Tryptophan degradation
+ENSG00000115919	KYNU	X124	Synthesis of anthranilate from tryptophan
+ENSG00000183077	AFMID	X124	Synthesis of anthranilate from tryptophan
+ENSG00000183077	AFMID	X125	Synthesis of kynate from tryptophan
+ENSG00000183077	AFMID	X126	Synthesis of L-kynurenine from tryptophan
+ENSG00000115919	KYNU	X127	Synthesis of N-formylanthranilate from tryptophan
+ENSG00000183077	AFMID	X128	Synthesis of quinolinate from tryptophan
+ENSG00000162882	HAAO	X128	Synthesis of quinolinate from tryptophan
+ENSG00000115919	KYNU	X128	Synthesis of quinolinate from tryptophan
+ENSG00000117009	KMO	X128	Synthesis of quinolinate from tryptophan
+ENSG00000132437	DDC	X129	Synthesis of serotonin from tryptophan
+ENSG00000128050	PAICS	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000048392	RRM2B	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000128059	PPAT	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000171848	RRM2	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000159131	GART	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000138363	ATIC	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000167325	RRM1	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000178921	PFAS	X13	Deoxyadenosine triphosphate synthesis (dATP)
+ENSG00000171759	PAH	X130	Tyrosine synthesis (need phenylalanine)
+ENSG00000091483	FH	X131	Tyrosine degradation
+ENSG00000103876	FAH	X131	Tyrosine degradation
+ENSG00000100577	GSTZ1	X131	Tyrosine degradation
+ENSG00000113924	HGD	X131	Tyrosine degradation
+ENSG00000158104	HPD	X131	Tyrosine degradation
+ENSG00000123454	DBH	X132	Tyrosine to adrenaline
+ENSG00000141744	PNMT	X132	Tyrosine to adrenaline
+ENSG00000132437	DDC	X132	Tyrosine to adrenaline
+ENSG00000077498	TYR	X132	Tyrosine to adrenaline
+ENSG00000077498	TYR	X133	Tyrosine to dopamine
+ENSG00000132437	DDC	X133	Tyrosine to dopamine
+ENSG00000103876	FAH	X134	Tyrosine to acetoacetate and fumarate
+ENSG00000113924	HGD	X134	Tyrosine to acetoacetate and fumarate
+ENSG00000100577	GSTZ1	X134	Tyrosine to acetoacetate and fumarate
+ENSG00000158104	HPD	X134	Tyrosine to acetoacetate and fumarate
+ENSG00000248098	BCKDHA	X135	Valine degradation
+ENSG00000113790	EHHADH	X135	Valine degradation
+ENSG00000198130	HIBCH	X135	Valine degradation
+ENSG00000127884	ECHS1	X135	Valine degradation
+ENSG00000083123	BCKDHB	X135	Valine degradation
+ENSG00000084754	HADHA	X135	Valine degradation
+ENSG00000142046	TMEM91	X135	Valine degradation
+ENSG00000127884	ECHS1	X136	Valine to succinyl-coA
+ENSG00000198130	HIBCH	X136	Valine to succinyl-coA
+ENSG00000146085	MMUT	X136	Valine to succinyl-coA
+ENSG00000248098	BCKDHA	X136	Valine to succinyl-coA
+ENSG00000084754	HADHA	X136	Valine to succinyl-coA
+ENSG00000142046	TMEM91	X136	Valine to succinyl-coA
+ENSG00000083123	BCKDHB	X136	Valine to succinyl-coA
+ENSG00000113790	EHHADH	X136	Valine to succinyl-coA
+ENSG00000168291	PDHB	X137	Hydroxymethylglutaryl-CoA synthesis
+ENSG00000150768	DLAT	X137	Hydroxymethylglutaryl-CoA synthesis
+ENSG00000110435	PDHX	X137	Hydroxymethylglutaryl-CoA synthesis
+ENSG00000091140	DLD	X137	Hydroxymethylglutaryl-CoA synthesis
+ENSG00000111669	TPI1	X137	Hydroxymethylglutaryl-CoA synthesis
+ENSG00000147155	EBP	X138	Cholesterol synthesis
+ENSG00000079459	FDFT1	X138	Cholesterol synthesis
+ENSG00000172893	DHCR7	X138	Cholesterol synthesis
+ENSG00000116133	DHCR24	X138	Cholesterol synthesis
+ENSG00000160285	LSS	X138	Cholesterol synthesis
+ENSG00000147383	NSDHL	X138	Cholesterol synthesis
+ENSG00000173638	SLC19A1	X138	Cholesterol synthesis
+ENSG00000149809	TM7SF2	X138	Cholesterol synthesis
+ENSG00000001630	CYP51A1	X138	Cholesterol synthesis
+ENSG00000104549	SQLE	X138	Cholesterol synthesis
+ENSG00000091140	DLD	X139	Acetoacetate synthesis
+ENSG00000168291	PDHB	X139	Acetoacetate synthesis
+ENSG00000150768	DLAT	X139	Acetoacetate synthesis
+ENSG00000111669	TPI1	X139	Acetoacetate synthesis
+ENSG00000110435	PDHX	X139	Acetoacetate synthesis
+ENSG00000084774	CAD	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000162368	CMPK1	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000102967	DHODH	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000048392	RRM2B	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000114491	UMPS	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000167325	RRM1	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000171848	RRM2	X14	Deoxycytidine triphosphate synthesis (dCTP)
+ENSG00000113161	HMGCR	X140	Mevalonate synthesis
+ENSG00000167508	MVD	X141	Farnesyl-pyrophosphate synthesis
+ENSG00000110921	MVK	X141	Farnesyl-pyrophosphate synthesis
+ENSG00000163344	PMVK	X141	Farnesyl-pyrophosphate synthesis
+ENSG00000099797	TECR	X143	Phosphatidyl-choline synthesis
+ENSG00000188641	DPYD	X143	Phosphatidyl-choline synthesis
+ENSG00000135821	GLUL	X143	Phosphatidyl-choline synthesis
+ENSG00000025708	TYMP	X143	Phosphatidyl-choline synthesis
+ENSG00000176890	TYMS	X143	Phosphatidyl-choline synthesis
+ENSG00000114491	UMPS	X143	Phosphatidyl-choline synthesis
+ENSG00000149084	HSD17B12	X143	Phosphatidyl-choline synthesis
+ENSG00000084774	CAD	X143	Phosphatidyl-choline synthesis
+ENSG00000102967	DHODH	X143	Phosphatidyl-choline synthesis
+ENSG00000100024	UPB1	X143	Phosphatidyl-choline synthesis
+ENSG00000147647	DPYS	X143	Phosphatidyl-choline synthesis
+ENSG00000169710	FASN	X143	Phosphatidyl-choline synthesis
+ENSG00000162368	CMPK1	X143	Phosphatidyl-choline synthesis
+ENSG00000176890	TYMS	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000188641	DPYD	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000149084	HSD17B12	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000169710	FASN	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000147647	DPYS	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000099797	TECR	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000025708	TYMP	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000100024	UPB1	X144	Phosphatidyl-ethanolamine synthesis
+ENSG00000114491	UMPS	X145	Phosphatidyl-serine synthesis
+ENSG00000099797	TECR	X145	Phosphatidyl-serine synthesis
+ENSG00000025708	TYMP	X145	Phosphatidyl-serine synthesis
+ENSG00000084774	CAD	X145	Phosphatidyl-serine synthesis
+ENSG00000147647	DPYS	X145	Phosphatidyl-serine synthesis
+ENSG00000135821	GLUL	X145	Phosphatidyl-serine synthesis
+ENSG00000162368	CMPK1	X145	Phosphatidyl-serine synthesis
+ENSG00000102967	DHODH	X145	Phosphatidyl-serine synthesis
+ENSG00000176890	TYMS	X145	Phosphatidyl-serine synthesis
+ENSG00000149084	HSD17B12	X145	Phosphatidyl-serine synthesis
+ENSG00000100024	UPB1	X145	Phosphatidyl-serine synthesis
+ENSG00000188641	DPYD	X145	Phosphatidyl-serine synthesis
+ENSG00000169710	FASN	X145	Phosphatidyl-serine synthesis
+ENSG00000103502	CDIPT	X146	Phosphatidyl-inositol synthesis
+ENSG00000147647	DPYS	X146	Phosphatidyl-inositol synthesis
+ENSG00000025708	TYMP	X146	Phosphatidyl-inositol synthesis
+ENSG00000100024	UPB1	X146	Phosphatidyl-inositol synthesis
+ENSG00000176890	TYMS	X146	Phosphatidyl-inositol synthesis
+ENSG00000099797	TECR	X146	Phosphatidyl-inositol synthesis
+ENSG00000149084	HSD17B12	X146	Phosphatidyl-inositol synthesis
+ENSG00000102967	DHODH	X146	Phosphatidyl-inositol synthesis
+ENSG00000188641	DPYD	X146	Phosphatidyl-inositol synthesis
+ENSG00000114491	UMPS	X146	Phosphatidyl-inositol synthesis
+ENSG00000169710	FASN	X146	Phosphatidyl-inositol synthesis
+ENSG00000135821	GLUL	X146	Phosphatidyl-inositol synthesis
+ENSG00000084774	CAD	X146	Phosphatidyl-inositol synthesis
+ENSG00000100024	UPB1	X147	Cardiolipin synthesis
+ENSG00000169710	FASN	X147	Cardiolipin synthesis
+ENSG00000147647	DPYS	X147	Cardiolipin synthesis
+ENSG00000188641	DPYD	X147	Cardiolipin synthesis
+ENSG00000135821	GLUL	X147	Cardiolipin synthesis
+ENSG00000087157	PGS1	X147	Cardiolipin synthesis
+ENSG00000102967	DHODH	X147	Cardiolipin synthesis
+ENSG00000099797	TECR	X147	Cardiolipin synthesis
+ENSG00000025708	TYMP	X147	Cardiolipin synthesis
+ENSG00000088766	CRLS1	X147	Cardiolipin synthesis
+ENSG00000176890	TYMS	X147	Cardiolipin synthesis
+ENSG00000114491	UMPS	X147	Cardiolipin synthesis
+ENSG00000149084	HSD17B12	X147	Cardiolipin synthesis
+ENSG00000084774	CAD	X147	Cardiolipin synthesis
+ENSG00000147647	DPYS	X149	Sphingomyelin synthesis
+ENSG00000149084	HSD17B12	X149	Sphingomyelin synthesis
+ENSG00000099797	TECR	X149	Sphingomyelin synthesis
+ENSG00000176890	TYMS	X149	Sphingomyelin synthesis
+ENSG00000100024	UPB1	X149	Sphingomyelin synthesis
+ENSG00000169710	FASN	X149	Sphingomyelin synthesis
+ENSG00000025708	TYMP	X149	Sphingomyelin synthesis
+ENSG00000188641	DPYD	X149	Sphingomyelin synthesis
+ENSG00000128050	PAICS	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000159131	GART	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000128059	PPAT	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000143774	GUK1	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000163655	GMPS	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000167325	RRM1	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000138363	ATIC	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000171848	RRM2	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000048392	RRM2B	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000178921	PFAS	X15	Deoxyguanosine triphosphate synthesis (dGTP)
+ENSG00000147647	DPYS	X150	Ceramide synthesis
+ENSG00000188641	DPYD	X150	Ceramide synthesis
+ENSG00000169710	FASN	X150	Ceramide synthesis
+ENSG00000135821	GLUL	X150	Ceramide synthesis
+ENSG00000176890	TYMS	X150	Ceramide synthesis
+ENSG00000100024	UPB1	X150	Ceramide synthesis
+ENSG00000149084	HSD17B12	X150	Ceramide synthesis
+ENSG00000099797	TECR	X150	Ceramide synthesis
+ENSG00000084774	CAD	X150	Ceramide synthesis
+ENSG00000102967	DHODH	X150	Ceramide synthesis
+ENSG00000114491	UMPS	X150	Ceramide synthesis
+ENSG00000025708	TYMP	X150	Ceramide synthesis
+ENSG00000156411	ATP5MJ	X154	Palmitolate degradation
+ENSG00000189043	NDUFA4	X154	Palmitolate degradation
+ENSG00000110955	ATP5F1B	X154	Palmitolate degradation
+ENSG00000124172	ATP5F1E	X156	cis-vaccenic acid degradation
+ENSG00000158864	NDUFS2	X156	cis-vaccenic acid degradation
+ENSG00000228253	MT-ATP8	X156	cis-vaccenic acid degradation
+ENSG00000099624	ATP5F1D	X158	Elaidate degradation
+ENSG00000228253	MT-ATP8	X158	Elaidate degradation
+ENSG00000110955	ATP5F1B	X159	Linolenate degradation
+ENSG00000249222	ATP5MGL	X159	Linolenate degradation
+ENSG00000084774	CAD	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000167325	RRM1	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000102967	DHODH	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000048392	RRM2B	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000114491	UMPS	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000171848	RRM2	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000162368	CMPK1	X16	Deoxyuridine triphosphate synthesis (dUTP)
+ENSG00000109390	NDUFC1	X160	Linoleate degradation
+ENSG00000267855	NDUFA7	X160	Linoleate degradation
+ENSG00000198786	MT-ND5	X160	Linoleate degradation
+ENSG00000140990	NDUFB10	X160	Linoleate degradation
+ENSG00000184752	NDUFA12	X160	Linoleate degradation
+ENSG00000065518	NDUFB4	X160	Linoleate degradation
+ENSG00000159199	ATP5MC1	X160	Linoleate degradation
+ENSG00000128609	NDUFA5	X160	Linoleate degradation
+ENSG00000125356	NDUFA1	X160	Linoleate degradation
+ENSG00000084674	APOB	X162	gamma-Linolenate degradation
+ENSG00000140505	CYP1A2	X162	gamma-Linolenate degradation
+ENSG00000119125	GDA	X162	gamma-Linolenate degradation
+ENSG00000136810	TXN	X162	gamma-Linolenate degradation
+ENSG00000116133	DHCR24	X162	gamma-Linolenate degradation
+ENSG00000100116	GCAT	X162	gamma-Linolenate degradation
+ENSG00000196305	IARS1	X162	gamma-Linolenate degradation
+ENSG00000175003	SLC22A1	X162	gamma-Linolenate degradation
+ENSG00000167699	GLOD4	X162	gamma-Linolenate degradation
+ENSG00000106688	SLC1A1	X162	gamma-Linolenate degradation
+ENSG00000141485	SLC13A5	X162	gamma-Linolenate degradation
+ENSG00000121281	ADCY7	X162	gamma-Linolenate degradation
+ENSG00000138376	BARD1	X162	gamma-Linolenate degradation
+ENSG00000137198	GMPR	X162	gamma-Linolenate degradation
+ENSG00000085377	PREP	X162	gamma-Linolenate degradation
+ENSG00000101890	GUCY2F	X162	gamma-Linolenate degradation
+ENSG00000206190	ATP10A	X162	gamma-Linolenate degradation
+ENSG00000205923	CEMP1	X162	gamma-Linolenate degradation
+ENSG00000243708	PLA2G4B	X162	gamma-Linolenate degradation
+ENSG00000088832	FKBP1A	X162	gamma-Linolenate degradation
+ENSG00000117410	ATP6V0B	X162	gamma-Linolenate degradation
+ENSG00000067225	PKM	X162	gamma-Linolenate degradation
+ENSG00000111224	PARP11	X162	gamma-Linolenate degradation
+ENSG00000168575	SLC20A2	X162	gamma-Linolenate degradation
+ENSG00000101365	IDH3B	X162	gamma-Linolenate degradation
+ENSG00000072682	P4HA2	X162	gamma-Linolenate degradation
+ENSG00000185803	SLC52A2	X162	gamma-Linolenate degradation
+ENSG00000182670	TTC3	X162	gamma-Linolenate degradation
+ENSG00000001036	FUCA2	X162	gamma-Linolenate degradation
+ENSG00000099194	SCD	X162	gamma-Linolenate degradation
+ENSG00000116761	CTH	X162	gamma-Linolenate degradation
+ENSG00000070915	SLC12A3	X162	gamma-Linolenate degradation
+ENSG00000186951	PPARA	X162	gamma-Linolenate degradation
+ENSG00000180233	ZNRF2	X162	gamma-Linolenate degradation
+ENSG00000141698	NT5C3B	X162	gamma-Linolenate degradation
+ENSG00000143845	ETNK2	X162	gamma-Linolenate degradation
+ENSG00000278540	ACACA	X162	gamma-Linolenate degradation
+ENSG00000101945	SUV39H1	X162	gamma-Linolenate degradation
+ENSG00000135587	SMPD2	X162	gamma-Linolenate degradation
+ENSG00000130707	ASS1	X162	gamma-Linolenate degradation
+ENSG00000188641	DPYD	X162	gamma-Linolenate degradation
+ENSG00000173200	PARP15	X162	gamma-Linolenate degradation
+ENSG00000135917	SLC19A3	X162	gamma-Linolenate degradation
+ENSG00000147804	SLC39A4	X162	gamma-Linolenate degradation
+ENSG00000115421	PAPOLG	X162	gamma-Linolenate degradation
+ENSG00000169239	CA5B	X162	gamma-Linolenate degradation
+ENSG00000149124	GLYAT	X162	gamma-Linolenate degradation
+ENSG00000113552	GNPDA1	X162	gamma-Linolenate degradation
+ENSG00000146233	CYP39A1	X162	gamma-Linolenate degradation
+ENSG00000112130	RNF8	X162	gamma-Linolenate degradation
+ENSG00000176387	HSD11B2	X162	gamma-Linolenate degradation
+ENSG00000073849	ST6GAL1	X162	gamma-Linolenate degradation
+ENSG00000110395	CBL	X162	gamma-Linolenate degradation
+ENSG00000109814	UGDH	X162	gamma-Linolenate degradation
+ENSG00000169020	ATP5ME	X163	Arachidonate synthesis
+ENSG00000228253	MT-ATP8	X163	Arachidonate synthesis
+ENSG00000156411	ATP5MJ	X163	Arachidonate synthesis
+ENSG00000167863	ATP5PD	X163	Arachidonate synthesis
+ENSG00000165629	ATP5F1C	X163	Arachidonate synthesis
+ENSG00000110955	ATP5F1B	X163	Arachidonate synthesis
+ENSG00000135390	ATP5MC2	X163	Arachidonate synthesis
+ENSG00000124172	ATP5F1E	X163	Arachidonate synthesis
+ENSG00000159199	ATP5MC1	X163	Arachidonate synthesis
+ENSG00000189043	NDUFA4	X163	Arachidonate synthesis
+ENSG00000241837	ATP5PO	X163	Arachidonate synthesis
+ENSG00000099624	ATP5F1D	X163	Arachidonate synthesis
+ENSG00000198899	MT-ATP6	X163	Arachidonate synthesis
+ENSG00000167283	ATP5MG	X163	Arachidonate synthesis
+ENSG00000180389	ATP5F1EP2	X163	Arachidonate synthesis
+ENSG00000241468	ATP5MF	X163	Arachidonate synthesis
+ENSG00000152234	ATP5F1A	X163	Arachidonate synthesis
+ENSG00000173915	ATP5MK	X163	Arachidonate synthesis
+ENSG00000154518	ATP5MC3	X163	Arachidonate synthesis
+ENSG00000116459	ATP5PB	X163	Arachidonate synthesis
+ENSG00000249222	ATP5MGL	X163	Arachidonate synthesis
+ENSG00000154723	ATP5PF	X163	Arachidonate synthesis
+ENSG00000249222	ATP5MGL	X164	Arachidonate degradation
+ENSG00000168291	PDHB	X165	Synthesis of malonyl-coa
+ENSG00000110435	PDHX	X165	Synthesis of malonyl-coa
+ENSG00000150768	DLAT	X165	Synthesis of malonyl-coa
+ENSG00000091140	DLD	X165	Synthesis of malonyl-coa
+ENSG00000111669	TPI1	X165	Synthesis of malonyl-coa
+ENSG00000110435	PDHX	X166	Synthesis of palmitoyl-CoA
+ENSG00000150768	DLAT	X166	Synthesis of palmitoyl-CoA
+ENSG00000091140	DLD	X166	Synthesis of palmitoyl-CoA
+ENSG00000168291	PDHB	X166	Synthesis of palmitoyl-CoA
+ENSG00000111669	TPI1	X166	Synthesis of palmitoyl-CoA
+ENSG00000136881	BAAT	X167	Taurochenodeoxycholate synthesis
+ENSG00000136881	BAAT	X168	Glycochenodeoxycholate synthesis
+ENSG00000241837	ATP5PO	X169	tauro-cholate synthesis
+ENSG00000156411	ATP5MJ	X169	tauro-cholate synthesis
+ENSG00000159199	ATP5MC1	X169	tauro-cholate synthesis
+ENSG00000116459	ATP5PB	X169	tauro-cholate synthesis
+ENSG00000167863	ATP5PD	X169	tauro-cholate synthesis
+ENSG00000154518	ATP5MC3	X169	tauro-cholate synthesis
+ENSG00000124172	ATP5F1E	X169	tauro-cholate synthesis
+ENSG00000133835	HSD17B4	X169	tauro-cholate synthesis
+ENSG00000228253	MT-ATP8	X169	tauro-cholate synthesis
+ENSG00000169020	ATP5ME	X169	tauro-cholate synthesis
+ENSG00000152620	NADK2	X169	tauro-cholate synthesis
+ENSG00000249222	ATP5MGL	X169	tauro-cholate synthesis
+ENSG00000189043	NDUFA4	X169	tauro-cholate synthesis
+ENSG00000167283	ATP5MG	X169	tauro-cholate synthesis
+ENSG00000165629	ATP5F1C	X169	tauro-cholate synthesis
+ENSG00000242110	AMACR	X169	tauro-cholate synthesis
+ENSG00000110955	ATP5F1B	X169	tauro-cholate synthesis
+ENSG00000075673	ATP12A	X169	tauro-cholate synthesis
+ENSG00000099624	ATP5F1D	X169	tauro-cholate synthesis
+ENSG00000198899	MT-ATP6	X169	tauro-cholate synthesis
+ENSG00000180389	ATP5F1EP2	X169	tauro-cholate synthesis
+ENSG00000173915	ATP5MK	X169	tauro-cholate synthesis
+ENSG00000154723	ATP5PF	X169	tauro-cholate synthesis
+ENSG00000136881	BAAT	X169	tauro-cholate synthesis
+ENSG00000180432	CYP8B1	X169	tauro-cholate synthesis
+ENSG00000186009	ATP4B	X169	tauro-cholate synthesis
+ENSG00000122787	AKR1D1	X169	tauro-cholate synthesis
+ENSG00000152234	ATP5F1A	X169	tauro-cholate synthesis
+ENSG00000241468	ATP5MF	X169	tauro-cholate synthesis
+ENSG00000135390	ATP5MC2	X169	tauro-cholate synthesis
+ENSG00000114491	UMPS	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000084774	CAD	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000171848	RRM2	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000102967	DHODH	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000048392	RRM2B	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000167325	RRM1	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000168393	DTYMK	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000176890	TYMS	X17	Deoxythymidine triphosphate synthesis (dTTP)
+ENSG00000242110	AMACR	X170	glyco-cholate synthesis
+ENSG00000180432	CYP8B1	X170	glyco-cholate synthesis
+ENSG00000136881	BAAT	X170	glyco-cholate synthesis
+ENSG00000122787	AKR1D1	X170	glyco-cholate synthesis
+ENSG00000133835	HSD17B4	X170	glyco-cholate synthesis
+ENSG00000059377	TBXAS1	X171	Synthesis of thromboxane from arachidonate
+ENSG00000169710	FASN	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000100024	UPB1	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000188641	DPYD	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000149084	HSD17B12	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000176890	TYMS	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000148154	UGCG	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000147647	DPYS	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000099797	TECR	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000025708	TYMP	X172	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+ENSG00000169710	FASN	X173	Synthesis of glucocerebroside
+ENSG00000147647	DPYS	X173	Synthesis of glucocerebroside
+ENSG00000149084	HSD17B12	X173	Synthesis of glucocerebroside
+ENSG00000025708	TYMP	X173	Synthesis of glucocerebroside
+ENSG00000188641	DPYD	X173	Synthesis of glucocerebroside
+ENSG00000138796	HADH	X173	Synthesis of glucocerebroside
+ENSG00000148154	UGCG	X173	Synthesis of glucocerebroside
+ENSG00000100024	UPB1	X173	Synthesis of glucocerebroside
+ENSG00000176890	TYMS	X173	Synthesis of glucocerebroside
+ENSG00000099797	TECR	X173	Synthesis of glucocerebroside
+ENSG00000149084	HSD17B12	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000148154	UGCG	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000188641	DPYD	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000025708	TYMP	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000169710	FASN	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000099797	TECR	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000100024	UPB1	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000128274	A4GALT	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000169255	B3GALNT1	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000147647	DPYS	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000176890	TYMS	X174	Synthesis of globoside (link with globoside metabolism)
+ENSG00000135002	RFK	X176	FAD synthesis
+ENSG00000127125	PPCS	X177	Synthesis of coenzyme A
+ENSG00000068120	COASY	X177	Synthesis of coenzyme A
+ENSG00000132423	COQ3	X178	Synthesis of ubiquinone from tyrosine
+ENSG00000167186	COQ7	X178	Synthesis of ubiquinone from tyrosine
+ENSG00000173085	COQ2	X178	Synthesis of ubiquinone from tyrosine
+ENSG00000119723	COQ6	X178	Synthesis of ubiquinone from tyrosine
+ENSG00000160209	PDXK	X180	Pyridoxal-phosphate synthesis
+ENSG00000115657	ABCB6	X182	Heme synthesis
+ENSG00000080819	CPOX	X182	Heme synthesis
+ENSG00000126088	UROD	X182	Heme synthesis
+ENSG00000188690	UROS	X182	Heme synthesis
+ENSG00000066926	FECH	X182	Heme synthesis
+ENSG00000148218	ALAD	X182	Heme synthesis
+ENSG00000256269	HMBS	X182	Heme synthesis
+ENSG00000108474	PIGL	X183	Phosphatidyl-inositol to glucosaminyl-acylphosphatidylinositol
+ENSG00000277161	PIGW	X183	Phosphatidyl-inositol to glucosaminyl-acylphosphatidylinositol
+ENSG00000038002	AGA	X185	Degradation of n2m2nmasn
+ENSG00000109323	MANBA	X185	Degradation of n2m2nmasn
+ENSG00000167280	ENGASE	X185	Degradation of n2m2nmasn
+ENSG00000172269	DPAGT1	X186	Biosynthesis of m4mpdol_U
+ENSG00000033011	ALG1	X186	Biosynthesis of m4mpdol_U
+ENSG00000253710	ALG11	X186	Biosynthesis of m4mpdol_U
+ENSG00000119523	ALG2	X186	Biosynthesis of m4mpdol_U
+ENSG00000175283	DOLK	X186	Biosynthesis of m4mpdol_U
+ENSG00000064601	CTSA	X188	Degradation of s2l2fn2m2masn
+ENSG00000141012	GALNS	X188	Degradation of s2l2fn2m2masn
+ENSG00000167280	ENGASE	X188	Degradation of s2l2fn2m2masn
+ENSG00000204386	NEU1	X188	Degradation of s2l2fn2m2masn
+ENSG00000109323	MANBA	X188	Degradation of s2l2fn2m2masn
+ENSG00000170266	GLB1	X188	Degradation of s2l2fn2m2masn
+ENSG00000038002	AGA	X188	Degradation of s2l2fn2m2masn
+ENSG00000165704	HPRT1	X19	IMP salvage from hypoxanthine
+ENSG00000198488	B3GNT6	X190	Biosynthesis of core4 (NAcetyl-beta-D-glucosaminyl-1,6-(Nacetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)
+ENSG00000141012	GALNS	X194	Keratan sulfate degradation
+ENSG00000204386	NEU1	X194	Keratan sulfate degradation
+ENSG00000064601	CTSA	X194	Keratan sulfate degradation
+ENSG00000167280	ENGASE	X194	Keratan sulfate degradation
+ENSG00000038002	AGA	X194	Keratan sulfate degradation
+ENSG00000170266	GLB1	X194	Keratan sulfate degradation
+ENSG00000143252	SDHC	X2	Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)
+ENSG00000117118	SDHB	X2	Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)
+ENSG00000204370	SDHD	X2	Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)
+ENSG00000073578	SDHA	X2	Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)
+ENSG00000165704	HPRT1	X20	GMP salvage from guanine
+ENSG00000158125	XDH	X22	Degradation of adenine to urate
+ENSG00000158125	XDH	X23	Degradation of guanine to urate
+ENSG00000100024	UPB1	X24	Degradation of cytosine
+ENSG00000100024	UPB1	X25	Degradation of uracil
+ENSG00000105220	GPI	X26	Gluconeogenesis from pyruvate
+ENSG00000111669	TPI1	X26	Gluconeogenesis from pyruvate
+ENSG00000111669	TPI1	X27	Gluconeogenesis from Lactate
+ENSG00000105220	GPI	X27	Gluconeogenesis from Lactate
+ENSG00000281500	SLC37A4	X28	Gluconeogenesis from Glycerol
+ENSG00000111669	TPI1	X28	Gluconeogenesis from Glycerol
+ENSG00000105220	GPI	X28	Gluconeogenesis from Glycerol
+ENSG00000111669	TPI1	X29	Gluconeogenesis from Alanine
+ENSG00000105220	GPI	X29	Gluconeogenesis from Alanine
+ENSG00000168291	PDHB	X3	Krebs cycle - oxidative decarboxylation of pyruvate
+ENSG00000150768	DLAT	X3	Krebs cycle - oxidative decarboxylation of pyruvate
+ENSG00000091140	DLD	X3	Krebs cycle - oxidative decarboxylation of pyruvate
+ENSG00000110435	PDHX	X3	Krebs cycle - oxidative decarboxylation of pyruvate
+ENSG00000204370	SDHD	X30	Gluconeogenesis from Glutamine
+ENSG00000073578	SDHA	X30	Gluconeogenesis from Glutamine
+ENSG00000091140	DLD	X30	Gluconeogenesis from Glutamine
+ENSG00000117118	SDHB	X30	Gluconeogenesis from Glutamine
+ENSG00000143252	SDHC	X30	Gluconeogenesis from Glutamine
+ENSG00000119689	DLST	X30	Gluconeogenesis from Glutamine
+ENSG00000091483	FH	X30	Gluconeogenesis from Glutamine
+ENSG00000163541	SUCLG1	X30	Gluconeogenesis from Glutamine
+ENSG00000111669	TPI1	X32	Glucose to lactate conversion
+ENSG00000111669	TPI1	X39	Fructose degradation (to glucose-3-phosphate)
+ENSG00000204370	SDHD	X4	Krebs cycle - NADH generation
+ENSG00000119689	DLST	X4	Krebs cycle - NADH generation
+ENSG00000091140	DLD	X4	Krebs cycle - NADH generation
+ENSG00000143252	SDHC	X4	Krebs cycle - NADH generation
+ENSG00000073578	SDHA	X4	Krebs cycle - NADH generation
+ENSG00000091483	FH	X4	Krebs cycle - NADH generation
+ENSG00000163541	SUCLG1	X4	Krebs cycle - NADH generation
+ENSG00000117118	SDHB	X4	Krebs cycle - NADH generation
+ENSG00000062485	CS	X4	Krebs cycle - NADH generation
+ENSG00000213930	GALT	X42	UDP-galactose synthesis
+ENSG00000109814	UGDH	X43	UDP-glucuronate synthesis
+ENSG00000157353	FCSK	X44	GDP-L-fucose synthesis
+ENSG00000178802	MPI	X45	Mannose degradation (to fructose-6-phosphate)
+ENSG00000117308	GALE	X47	UDP-N-acetyl D-galactosamine synthesis
+ENSG00000013375	PGM3	X47	UDP-N-acetyl D-galactosamine synthesis
+ENSG00000100522	GNPNAT1	X47	UDP-N-acetyl D-galactosamine synthesis
+ENSG00000013375	PGM3	X48	CMP-N-acetylneuraminate synthesis
+ENSG00000100522	GNPNAT1	X48	CMP-N-acetylneuraminate synthesis
+ENSG00000159921	GNE	X48	CMP-N-acetylneuraminate synthesis
+ENSG00000111726	CMAS	X48	CMP-N-acetylneuraminate synthesis
+ENSG00000159921	GNE	X49	N-Acetylglucosamine synthesis
+ENSG00000102032	RENBP	X49	N-Acetylglucosamine synthesis
+ENSG00000100522	GNPNAT1	X49	N-Acetylglucosamine synthesis
+ENSG00000013375	PGM3	X49	N-Acetylglucosamine synthesis
+ENSG00000164405	UQCRQ	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000165629	ATP5F1C	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000249222	ATP5MGL	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198888	MT-ND1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000189043	NDUFA4	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000145494	NDUFS6	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000241468	ATP5MF	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000147123	NDUFB11	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000115286	NDUFS7	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000184076	UQCR10	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000110955	ATP5F1B	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198695	MT-ND6	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198840	MT-ND3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000167283	ATP5MG	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000174886	NDUFA11	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000131495	NDUFA2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000184983	NDUFA6	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000241837	ATP5PO	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000160194	NDUFV3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000169021	UQCRFS1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000127540	UQCR11	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000131174	COX7B	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000180389	ATP5F1EP2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000023228	NDUFS1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000010256	UQCRC1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000173915	ATP5MK	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000156467	UQCRB	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000110717	NDUFS8	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000183648	NDUFB1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000140990	NDUFB10	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000135940	COX5B	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000075415	SLC25A3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198786	MT-ND5	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198727	MT-CYB	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000128609	NDUFA5	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000135390	ATP5MC2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000136521	NDUFB5	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000167863	ATP5PD	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000130414	NDUFA10	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000176340	COX8A	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000173660	UQCRH	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000158864	NDUFS2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000164258	NDUFS4	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000178741	COX5A	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198804	MT-CO1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198886	MT-ND4	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000152234	ATP5F1A	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000186010	NDUFA13	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000147684	NDUFB9	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000213619	NDUFS3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198763	MT-ND2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000184752	NDUFA12	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000099624	ATP5F1D	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000116459	ATP5PB	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000178127	NDUFV2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000179091	CYC1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000170906	NDUFA3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000169020	ATP5ME	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000228253	MT-ATP8	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000140740	UQCRC2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000166136	NDUFB8	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000139180	NDUFA9	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000151366	NDUFC2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000156411	ATP5MJ	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000124172	ATP5F1E	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000170516	COX7B2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000159199	ATP5MC1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000109390	NDUFC1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198938	MT-CO3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000119013	NDUFB3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000212907	MT-ND4L	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000099795	NDUFB7	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198899	MT-ATP6	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000119421	NDUFA8	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000167792	NDUFV1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000198712	MT-CO2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000154518	ATP5MC3	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000125356	NDUFA1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000004779	NDUFAB1	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000154723	ATP5PF	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000165264	NDUFB6	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000127184	COX7C	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000065518	NDUFB4	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000090266	NDUFB2	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000164919	COX6C	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000267855	NDUFA7	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000168653	NDUFS5	X5	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+ENSG00000109814	UGDH	X51	Glucuronate synthesis (via udp-glucose)
+ENSG00000091140	DLD	X52	Synthesis of acetone
+ENSG00000111669	TPI1	X52	Synthesis of acetone
+ENSG00000168291	PDHB	X52	Synthesis of acetone
+ENSG00000110435	PDHX	X52	Synthesis of acetone
+ENSG00000150768	DLAT	X52	Synthesis of acetone
+ENSG00000091140	DLD	X53	(R)-3-Hydroxybutanoate synthesis
+ENSG00000168291	PDHB	X53	(R)-3-Hydroxybutanoate synthesis
+ENSG00000110435	PDHX	X53	(R)-3-Hydroxybutanoate synthesis
+ENSG00000111669	TPI1	X53	(R)-3-Hydroxybutanoate synthesis
+ENSG00000150768	DLAT	X53	(R)-3-Hydroxybutanoate synthesis
+ENSG00000105655	ISYNA1	X54	Synthesis of inositol
+ENSG00000103502	CDIPT	X56	Synthesis of phosphatidylinositol from inositol
+ENSG00000090402	SI	X58	Starch degradation
+ENSG00000257335	MGAM	X58	Starch degradation
+ENSG00000138030	KHK	X59	Link between glyoxylate metabolism and pentose phosphate pathway (Xylulose to glycolate)
+ENSG00000111669	TPI1	X6	ATP generation from glucose (hypoxic conditions) - glycolysis
+ENSG00000168291	PDHB	X61	Alanine synthesis
+ENSG00000111669	TPI1	X61	Alanine synthesis
+ENSG00000167701	GPT	X61	Alanine synthesis
+ENSG00000183032	SLC25A21	X61	Alanine synthesis
+ENSG00000091140	DLD	X61	Alanine synthesis
+ENSG00000109576	AADAT	X61	Alanine synthesis
+ENSG00000062485	CS	X61	Alanine synthesis
+ENSG00000173599	PC	X61	Alanine synthesis
+ENSG00000110435	PDHX	X61	Alanine synthesis
+ENSG00000150768	DLAT	X61	Alanine synthesis
+ENSG00000126522	ASL	X64	Arginine synthesis
+ENSG00000110435	PDHX	X64	Arginine synthesis
+ENSG00000062485	CS	X64	Arginine synthesis
+ENSG00000021826	CPS1	X64	Arginine synthesis
+ENSG00000173599	PC	X64	Arginine synthesis
+ENSG00000186009	ATP4B	X64	Arginine synthesis
+ENSG00000036473	OTC	X64	Arginine synthesis
+ENSG00000065154	OAT	X64	Arginine synthesis
+ENSG00000111669	TPI1	X64	Arginine synthesis
+ENSG00000159423	ALDH4A1	X64	Arginine synthesis
+ENSG00000168291	PDHB	X64	Arginine synthesis
+ENSG00000075673	ATP12A	X64	Arginine synthesis
+ENSG00000091140	DLD	X64	Arginine synthesis
+ENSG00000130707	ASS1	X64	Arginine synthesis
+ENSG00000150768	DLAT	X64	Arginine synthesis
+ENSG00000169020	ATP5ME	X65	Arginine degradation
+ENSG00000180389	ATP5F1EP2	X65	Arginine degradation
+ENSG00000152234	ATP5F1A	X65	Arginine degradation
+ENSG00000159199	ATP5MC1	X65	Arginine degradation
+ENSG00000135390	ATP5MC2	X65	Arginine degradation
+ENSG00000173915	ATP5MK	X65	Arginine degradation
+ENSG00000165629	ATP5F1C	X65	Arginine degradation
+ENSG00000116459	ATP5PB	X65	Arginine degradation
+ENSG00000241468	ATP5MF	X65	Arginine degradation
+ENSG00000099624	ATP5F1D	X65	Arginine degradation
+ENSG00000189043	NDUFA4	X65	Arginine degradation
+ENSG00000198899	MT-ATP6	X65	Arginine degradation
+ENSG00000124172	ATP5F1E	X65	Arginine degradation
+ENSG00000154518	ATP5MC3	X65	Arginine degradation
+ENSG00000091483	FH	X65	Arginine degradation
+ENSG00000167283	ATP5MG	X65	Arginine degradation
+ENSG00000167863	ATP5PD	X65	Arginine degradation
+ENSG00000110955	ATP5F1B	X65	Arginine degradation
+ENSG00000154723	ATP5PF	X65	Arginine degradation
+ENSG00000249222	ATP5MGL	X65	Arginine degradation
+ENSG00000241837	ATP5PO	X65	Arginine degradation
+ENSG00000156411	ATP5MJ	X65	Arginine degradation
+ENSG00000228253	MT-ATP8	X65	Arginine degradation
+ENSG00000036473	OTC	X66	Synthesis of arginine from glutamine
+ENSG00000126522	ASL	X66	Synthesis of arginine from glutamine
+ENSG00000021826	CPS1	X66	Synthesis of arginine from glutamine
+ENSG00000130707	ASS1	X66	Synthesis of arginine from glutamine
+ENSG00000065154	OAT	X66	Synthesis of arginine from glutamine
+ENSG00000171766	GATM	X69	Synthesis of creatine from arginine
+ENSG00000130005	GAMT	X69	Synthesis of creatine from arginine
+ENSG00000117118	SDHB	X70	Asparagine synthesis
+ENSG00000073578	SDHA	X70	Asparagine synthesis
+ENSG00000204370	SDHD	X70	Asparagine synthesis
+ENSG00000173599	PC	X70	Asparagine synthesis
+ENSG00000143252	SDHC	X70	Asparagine synthesis
+ENSG00000163541	SUCLG1	X70	Asparagine synthesis
+ENSG00000091483	FH	X70	Asparagine synthesis
+ENSG00000183032	SLC25A21	X70	Asparagine synthesis
+ENSG00000110435	PDHX	X70	Asparagine synthesis
+ENSG00000119689	DLST	X70	Asparagine synthesis
+ENSG00000168291	PDHB	X70	Asparagine synthesis
+ENSG00000070669	ASNS	X70	Asparagine synthesis
+ENSG00000109576	AADAT	X70	Asparagine synthesis
+ENSG00000111669	TPI1	X70	Asparagine synthesis
+ENSG00000062485	CS	X70	Asparagine synthesis
+ENSG00000091140	DLD	X70	Asparagine synthesis
+ENSG00000150768	DLAT	X70	Asparagine synthesis
+ENSG00000135821	GLUL	X70	Asparagine synthesis
+ENSG00000110435	PDHX	X72	Aspartate synthesis
+ENSG00000091140	DLD	X72	Aspartate synthesis
+ENSG00000125166	GOT2	X72	Aspartate synthesis
+ENSG00000062485	CS	X72	Aspartate synthesis
+ENSG00000173599	PC	X72	Aspartate synthesis
+ENSG00000111669	TPI1	X72	Aspartate synthesis
+ENSG00000168291	PDHB	X72	Aspartate synthesis
+ENSG00000150768	DLAT	X72	Aspartate synthesis
+ENSG00000130707	ASS1	X74	Conversion of aspartate to arginine
+ENSG00000126522	ASL	X74	Conversion of aspartate to arginine
+ENSG00000070669	ASNS	X76	Conversion of asparate to asparagine
+ENSG00000073578	SDHA	X77	beta-Alanine synthesis
+ENSG00000119689	DLST	X77	beta-Alanine synthesis
+ENSG00000117118	SDHB	X77	beta-Alanine synthesis
+ENSG00000091140	DLD	X77	beta-Alanine synthesis
+ENSG00000110435	PDHX	X77	beta-Alanine synthesis
+ENSG00000163541	SUCLG1	X77	beta-Alanine synthesis
+ENSG00000062485	CS	X77	beta-Alanine synthesis
+ENSG00000091483	FH	X77	beta-Alanine synthesis
+ENSG00000204370	SDHD	X77	beta-Alanine synthesis
+ENSG00000111669	TPI1	X77	beta-Alanine synthesis
+ENSG00000168291	PDHB	X77	beta-Alanine synthesis
+ENSG00000143252	SDHC	X77	beta-Alanine synthesis
+ENSG00000150768	DLAT	X77	beta-Alanine synthesis
+ENSG00000183044	ABAT	X78	beta-Alanine degradation
+ENSG00000119711	ALDH6A1	X78	beta-Alanine degradation
+ENSG00000183044	ABAT	X80	Beta-alanine to 3-oxopropanoate
+ENSG00000160200	CBS	X81	Cysteine synthesis (need serine and methionine)
+ENSG00000116761	CTH	X81	Cysteine synthesis (need serine and methionine)
+ENSG00000124713	GNMT	X81	Cysteine synthesis (need serine and methionine)
+ENSG00000129596	CDO1	X82	Cysteine degradation
+ENSG00000129596	CDO1	X84	Synthesis of taurine from cysteine
+ENSG00000111669	TPI1	X85	Glutamate synthesis
+ENSG00000109576	AADAT	X85	Glutamate synthesis
+ENSG00000183032	SLC25A21	X85	Glutamate synthesis
+ENSG00000173599	PC	X85	Glutamate synthesis
+ENSG00000168291	PDHB	X85	Glutamate synthesis
+ENSG00000091140	DLD	X85	Glutamate synthesis
+ENSG00000110435	PDHX	X85	Glutamate synthesis
+ENSG00000062485	CS	X85	Glutamate synthesis
+ENSG00000150768	DLAT	X85	Glutamate synthesis
+ENSG00000135821	GLUL	X87	Conversion of glutamate to glutamine
+ENSG00000159423	ALDH4A1	X88	Conversion of glutamate to proline
+ENSG00000183044	ABAT	X89	Conversion of GABA into succinate
+ENSG00000138363	ATIC	X9	Inosine monophosphate synthesis (IMP)
+ENSG00000128059	PPAT	X9	Inosine monophosphate synthesis (IMP)
+ENSG00000178921	PFAS	X9	Inosine monophosphate synthesis (IMP)
+ENSG00000128050	PAICS	X9	Inosine monophosphate synthesis (IMP)
+ENSG00000159131	GART	X9	Inosine monophosphate synthesis (IMP)
+ENSG00000111669	TPI1	X90	Glutamine synthesis
+ENSG00000091140	DLD	X90	Glutamine synthesis
+ENSG00000109576	AADAT	X90	Glutamine synthesis
+ENSG00000135821	GLUL	X90	Glutamine synthesis
+ENSG00000150768	DLAT	X90	Glutamine synthesis
+ENSG00000110435	PDHX	X90	Glutamine synthesis
+ENSG00000183032	SLC25A21	X90	Glutamine synthesis
+ENSG00000168291	PDHB	X90	Glutamine synthesis
+ENSG00000173599	PC	X90	Glutamine synthesis
+ENSG00000062485	CS	X90	Glutamine synthesis
+ENSG00000163541	SUCLG1	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000204370	SDHD	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000119689	DLST	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000117118	SDHB	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000091483	FH	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000073578	SDHA	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000091140	DLD	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000143252	SDHC	X92	Glutaminolysis (glutamine to lactate)
+ENSG00000100983	GSS	X93	Glutathionate synthesis
+ENSG00000001084	GCLC	X93	Glutathionate synthesis
+ENSG00000023909	GCLM	X93	Glutathionate synthesis
+ENSG00000135069	PSAT1	X94	Glycine synthesis
+ENSG00000111669	TPI1	X94	Glycine synthesis
+ENSG00000189043	NDUFA4	X95	Glycine degradation
+ENSG00000176974	SHMT1	X96	Conversion of glycine to pyruvate
+ENSG00000159650	UROC1	X97	Histidine degradation
+ENSG00000139344	AMDHD1	X97	Histidine degradation
+ENSG00000160282	FTCD	X97	Histidine degradation
+ENSG00000084110	HAL	X97	Histidine degradation
+ENSG00000100714	MTHFD1	X97	Histidine degradation
+ENSG00000084110	HAL	X98	Conversion of histidine to glutamate
+ENSG00000160282	FTCD	X98	Conversion of histidine to glutamate
+ENSG00000139344	AMDHD1	X98	Conversion of histidine to glutamate
+ENSG00000159650	UROC1	X98	Conversion of histidine to glutamate

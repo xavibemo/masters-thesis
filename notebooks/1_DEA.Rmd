@@ -1,0 +1,395 @@
+---
+title: "DEA with TPMs"
+author: "Xavier Benedicto"
+date: "2023-10-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set Up
+
+Libraries to be used.
+
+```{r, message=FALSE}
+library(tidyverse)
+library(reshape2)
+library(ggpubr)
+library(ggsignif)
+# library(NOISeq)
+# library(EDASeq)
+library(DESeq2)
+# library(dendextend)
+library(pheatmap)
+library(RColorBrewer)
+```
+
+Custom functions to be used.
+
+```{r}
+# source("../scripts/collapse_duplicated_entries.R")
+source("../scripts/TPMplot.R")
+source("../scripts/TPMmatrix.R")
+```
+
+Other customization.
+
+```{r}
+out_plots <- "../1_DEA/images/"
+out_dir <- "../1_DEA/results/"
+```
+
+
+## Data Initialization
+
+First, we will read into R all data needed.
+
+```{r}
+FPKM <- read.table("../data/FPKM_all_samples_ordered.tsv", header = TRUE, sep = "\t")
+raw_reads <- read.table("../data/all_samples.tsv", header = TRUE, sep = "\t",)
+hgnc.symbols <- read_tsv("../0_BIOMART/hgnc_filt_all_genes.tsv") %>% as.data.frame()
+metadata <- read.table("../data/sample_description.tsv", header = TRUE, row.names = 1, stringsAsFactors = TRUE)
+```
+
+There are some discrepancies between FPKM and raw counts.
+
+```{r}
+nrow(FPKM) - nrow(raw_reads)
+```
+
+```{r}
+mapping.symbols <- hgnc.symbols$`Approved symbol`
+names(mapping.symbols) <- hgnc.symbols$Input
+
+FPKM$Symbol <- ifelse(!is.na(mapping.symbols[FPKM$Name]), mapping.symbols[FPKM$Name], FPKM$Name)
+FPKM <- FPKM[,c(1,26,2:25)] %>% group_by(Symbol) %>% summarise(
+          dplyr::across(starts_with("af"), ~ median(.))
+        )
+
+raw_reads$Symbol <- ifelse(!is.na(mapping.symbols[raw_reads$GeneID]), mapping.symbols[raw_reads$GeneID], raw_reads$GeneID)
+raw_reads <- raw_reads[,c(1,26,2:25)] %>% group_by(Symbol) %>% summarise(
+               dplyr::across(starts_with("af"), ~ median(.))
+             ) %>% as.data.frame()
+
+rownames(raw_reads) <- raw_reads$Symbol
+```
+
+Now we know that all discrepancies are a result of rows that do not have any counts, so we can proceed. Next, we transformed FPKM into TPM so that we can make expression comparisons between the different samples.
+
+```{r}
+TPM <- FPKMtoTPM(FPKM[,c(2:25)])
+rownames(TPM) <- FPKM$Symbol
+```
+
+### Metabolic Model Genes
+
+```{r}
+metabolic_genes <- read.table("../data/model_genes_metabolism.tsv", header = TRUE)
+nrow(metabolic_genes)
+```
+
+```{r}
+metabolic_genes[!metabolic_genes$geneSymbols %in% rownames(raw_reads), c("geneSymbols", "geneAliases")]
+```
+
+### Metabolic Model Genes
+
+```{r}
+boolean_genes <- read.table("../data/boolean_model_genes.txt")$V1
+length(boolean_genes)
+```
+
+```{r}
+boolean_genes[!boolean_genes %in% rownames(TPM)]
+```
+
+## DESeq Analysis Preparation
+
+```{r}
+raw_reads[,c(2:25)] <- apply(raw_reads[,c(2:25)], 2, as.integer) 
+dds <- DESeqDataSetFromMatrix(countData = raw_reads[,c(2:25)],
+                              colData = metadata,
+                              design = ~ replicate + treatment)
+
+dds$treatment <- relevel(dds$treatment, ref = "Ctr")
+dds
+```
+
+## Differential Expression Analysis
+
+Running DESeq to perform DEA.
+
+```{r}
+dds <- DESeq(dds)
+```
+
+```{r}
+resultsNames(dds)
+```
+
+Extracting the results of the DEA for every condition.
+
+```{r, message=FALSE}
+res_Oxo <- results(dds, contrast=c("treatment", "Oxo", "Ctr"), alpha=0.05) 
+res_Oxo_sh <- lfcShrink(dds, contrast=c("treatment", "Oxo", "Ctr"), type="ashr", res=res_Oxo)
+
+res_PI <- results(dds, contrast = c("treatment", "PI", "Ctr"), alpha=0.05)
+res_PI_sh <- lfcShrink(dds, contrast = c("treatment", "PI", "Ctr"), type="ashr", res=res_PI)
+
+res_PD <- results(dds, contrast=c("treatment", "PD", "Ctr"), alpha=0.05)
+res_PD_sh <- lfcShrink(dds, contrast=c("treatment", "PD", "Ctr"), type="ashr", res=res_PD)
+
+res_PI_Oxo <- results(dds, contrast=c("treatment", "PI_Oxo", "Ctr"), alpha=0.05)
+res_PI_Oxo_sh <- lfcShrink(dds, contrast=c("treatment", "PI_Oxo", "Ctr"), type="ashr", res=res_PI_Oxo)
+
+res_PI_PD <- results(dds, contrast=c("treatment", "PI_PD", "Ctr"), alpha=0.05)
+res_PI_PD_sh <- lfcShrink(dds, contrast=c("treatment", "PI_PD", "Ctr"), type="ashr", res=res_PI_PD)
+
+# Creating and saving results
+# res_all <- list(Oxo=res_Oxo, PD=res_PD, PI=res_PI, PI_Oxo=res_PI_Oxo, PI_PD=res_PI_PD)
+# saveRDS(lapply(res_all, as.data.frame), "../1_DEA/all.results.RDS")
+
+res_all_sh <- list(Oxo = res_Oxo_sh, PD = res_PD_sh, PI = res_PI_sh, PI_Oxo = res_PI_Oxo_sh, PI_PD = res_PI_PD_sh)
+# saveRDS(lapply(res_all_sh, as.data.frame), "../1_DEA/all.results.shrinkedLFC.RDS")
+```
+
+Significant genes.
+
+```{r}
+lapply(res_all_sh, function (res) {
+  res %>% filter(padj < 0.05 & abs(log2FoldChange) > log2(1.5)) 
+})
+
+sig.genes <- lapply(res_all_sh, function (res) {
+  res %>% filter(padj < 0.05 & abs(log2FoldChange) > log2(1.5))  %>% rownames()
+}) %>% unlist() %>% unique()
+```
+
+
+Writing out all table results into files.
+
+```{r}
+# for (i in seq_along(res_all_sh))
+# {
+#     res <- res_all_sh[[i]] %>% as.data.frame()
+#     res <- res[order(res$padj), ]
+#     res$gene_name <- rownames(res)
+# 
+#     res_dir <- paste0(out_dir, names(res_all_sh)[i], "/")
+#     dir.create(res_dir, showWarnings = FALSE)
+# 
+#     # write.table(res[!is.na(res$log2FoldChange) & res$log2FoldChange > 0, ]$gene_name %>% head(150),
+#     #             paste0(res_dir, "DESeq_Top150Up_", names(res_all_sh)[i], ".txt"),
+#     #             sep = "\t", quote = FALSE, row.names = FALSE, col.names = FALSE)
+#     # 
+#     # write.table(res[!is.na(res$log2FoldChange) & res$log2FoldChange < 0, ]$gene_name %>% head(150),
+#     #             paste0(res_dir, "DESeq_Top150Down_", names(res_all_sh)[i], ".txt"),
+#     #             sep = "\t", quote = FALSE, row.names = FALSE, col.names = FALSE )
+# 
+#     # write.table(res[, c(6, 2, 3, 4, 5)],
+#     #             paste0(res_dir, "DESeq_all_shrinkedLFC_", names(res_all_sh)[i], ".txt"),
+#     #             sep = "\t", quote = FALSE, row.names = FALSE )
+# 
+#     print(paste0("Saved results into ", res_dir))
+# }
+```
+
+Finally, intersecting all up- and down-regulated genes in all conditions.
+
+```{r}
+# filesUp <- list.files(out_dir, pattern = "Top150Up", recursive = TRUE)
+# filesDown <- list.files(out_dir, pattern = "Top150Down", recursive = TRUE)
+# 
+# lapply(filesUp, function(file) read.table(paste0(out_dir, file), header = FALSE)$V1) %>% 
+#       purrr::reduce(intersect) %>% 
+#       write.table(paste0(out_dir, "upregulated_intersect_allconditions.txt"), 
+#                   col.names = FALSE, row.names = FALSE, quote = FALSE)
+# 
+# lapply(filesDown, function(file) read.table(paste0(out_dir, file), header = FALSE)$V1) %>% 
+#       purrr::reduce(intersect) %>%
+#       write.table(paste0(out_dir, "downregulated_intersect_allconditions.txt"), 
+#                   col.names = FALSE, row.names = FALSE, quote = FALSE)
+```
+
+## Results Exploration
+
+```{r, message=FALSE}
+TPM$geneName <- rownames(TPM)
+longTPM <- melt(TPM, variable.name = "samples", value.name = "TPMs") %>% 
+           merge(metadata, by.x = "samples", by.y = "row.names")
+
+# saveRDS(longTPM, "../1_DEA/long.TPM.RDS")
+
+gene <- "ASNS"
+LFCvalues <- lapply(seq_along(res_all_sh), function(i) {
+    df <- res_all_sh[[i]] %>% as.data.frame()
+    df_subset <- df[rownames(df) == gene, , drop = FALSE]
+    df_subset$treatment <- names(res_all_sh)[i]
+    return(df_subset)
+}) %>% bind_rows()
+
+longTPM[longTPM$geneName == gene, ] %>% TPMplot(gene, res_all_sh, LFCvalues)
+```
+
+## Heatmaps
+
+```{r}
+# metabolic_genes <- read.table("../data/model_genes_metabolism.tsv", sep="\t", header=TRUE)$geneSymbols
+# boolean_genes <- read.table("../data/boolean_model_genes.tsv", sep="\t")[,"V1"]
+```
+
+All genes.
+
+```{r, echo=FALSE}
+# pheatmap(log2(TPM+1),
+#          color=brewer.pal(11, "RdBu"),
+#          annotation_col=metadata[,"treatment", drop=FALSE],
+#          clustering_distance_rows="euclidean",
+#          clustering_distance_cols="euclidean",
+#          clustering_method="ward.D",
+#          show_rownames=FALSE, border_color=FALSE,
+#          angle_col=45, fontsize=5)
+```
+
+DEG genes.
+
+```{r}
+pheatmap(log2(TPM[sig.genes, 1:24]+1) %>% na.omit(),
+         color = brewer.pal(11, "RdBu"),
+         annotation_col = metadata[,"treatment", drop = FALSE],
+         clustering_distance_rows = "euclidean",
+         clustering_distance_cols = "euclidean",
+         clustering_method = "ward.D",
+         show_rownames = FALSE, border_color = FALSE,
+         angle_col = 45, fontsize = 5)
+```
+
+Boolean genes.
+
+```{r}
+pheatmap(log2(TPM[boolean.genes, 1:24] + 1) %>% na.omit(),
+         color = brewer.pal(11, "RdBu"),
+         annotation_col=metadata[,"treatment", drop=FALSE],
+         clustering_distance_rows="euclidean",
+         clustering_distance_cols="euclidean",
+         clustering_method="ward.D",
+         # cellwidth = 4, cellheight = 4,
+         show_rownames=TRUE, border_color=FALSE,
+         angle_col=45, fontsize=5)
+```
+
+Metabolic genes.
+
+```{r}
+pheatmap(log2(TPM[human.genes, 1:24] + 1) %>% na.omit(),
+         color=brewer.pal(11, "RdBu"),
+         annotation_col=metadata[,"treatment", drop=FALSE],
+         clustering_distance_rows="euclidean",
+         clustering_distance_cols="euclidean",
+         clustering_method="ward.D",
+         show_rownames=FALSE, border_color=FALSE,
+         angle_col=45, fontsize=5)
+```
+
+Metabolic tasks.
+
+```{r}
+pheatmap(log2(TPM[tasks.genes, 1:24] + 1) %>% na.omit(),
+         color = brewer.pal(11, "RdBu"),
+         annotation_col=metadata[,"treatment", drop=FALSE],
+         clustering_distance_rows="euclidean",
+         clustering_distance_cols="euclidean",
+         clustering_method="ward.D",
+         # cellwidth = 4, cellheight = 4,
+         show_rownames=FALSE, border_color=FALSE,
+         angle_col=45, fontsize=5)
+```
+
+
+```{r, echo=FALSE}
+# TPM[rownames(TPM) %in% metabolic_genes$geneSymbols,]
+# 
+# raw_data <- read.table("../data/all_samples.tsv", sep="\t", header=TRUE)
+# metabolic_genes[!metabolic_genes$geneSymbols %in% sig_genes,]
+```
+
+
+## DEA with Only Metabolic Genes
+
+Setting up new out directories.
+
+```{r}
+out_dir <- "../1_DEA/results_metabolic_genes"
+dir.create(out_dir)
+```
+
+Checking the metabolic genes.
+
+```{r}
+raw.reads.metabolic <- raw_reads %>% filter(Symbol %in% metabolic_genes$geneSymbols) %>% 
+                       select(!Symbol)
+
+nrow(raw.reads.metabolic)
+```
+
+Running DESeq.
+
+```{r}
+dds.metabolic <- DESeqDataSetFromMatrix(countData = raw.reads.metabolic,
+                                        colData = metadata,
+                                        design = ~ replicate + treatment)
+
+dds.metabolic$treatment <- relevel(dds.metabolic$treatment, ref = "Ctr")
+dds.metabolic
+```
+
+```{r}
+dds.metabolic <- DESeq(dds.metabolic)
+resultsNames(dds.metabolic)
+```
+
+Generating result files.
+
+```{r}
+res_Oxo.m <- results(dds.metabolic, contrast = c("treatment", "Oxo", "Ctr"), alpha = 0.05) 
+res_Oxo_sh.m <- lfcShrink(dds.metabolic, contrast = c("treatment", "Oxo", "Ctr"), type = "ashr", res = res_Oxo.m)
+
+res_PI.m <- results(dds.metabolic, contrast = c("treatment", "PI", "Ctr"), alpha = 0.05)
+res_PI_sh.m <- lfcShrink(dds.metabolic, contrast = c("treatment", "PI", "Ctr"), type = "ashr", res = res_PI.m)
+
+res_PD.m <- results(dds.metabolic, contrast=c("treatment", "PD", "Ctr"), alpha = 0.05)
+res_PD_sh.m <- lfcShrink(dds.metabolic, contrast=c("treatment", "PD", "Ctr"), type = "ashr", res = res_PD.m)
+
+res_PI_Oxo.m <- results(dds.metabolic, contrast=c("treatment", "PI_Oxo", "Ctr"), alpha=0.05)
+res_PI_Oxo_sh.m <- lfcShrink(dds.metabolic, contrast=c("treatment", "PI_Oxo", "Ctr"), type="ashr", res=res_PI_Oxo.m)
+
+res_PI_PD.m <- results(dds.metabolic, contrast=c("treatment", "PI_PD", "Ctr"), alpha=0.05)
+res_PI_PD_sh.m <- lfcShrink(dds.metabolic, contrast=c("treatment", "PI_PD", "Ctr"), type="ashr", res=res_PI_PD.m)
+
+# Creating and saving results
+# res_all <- list(Oxo=res_Oxo, PD=res_PD, PI=res_PI, PI_Oxo=res_PI_Oxo, PI_PD=res_PI_PD)
+# saveRDS(lapply(res_all, as.data.frame), "../1_DEA/all.results.RDS")
+
+res_all_sh.m <- lapply(list(Oxo = res_Oxo_sh.m, PD = res_PD_sh.m, PI = res_PI_sh.m, PI_Oxo = res_PI_Oxo_sh.m, PI_PD = res_PI_PD_sh.m), as.data.frame)
+saveRDS(res_all_sh.m, "../1_DEA/metabolic.genes.shrinkedLFC.RDS")
+```
+
+```{r}
+TPM$geneName <- rownames(TPM)
+longTPM <- melt(TPM, variable.name = "samples", value.name = "TPMs") %>% 
+           merge(metadata, by.x = "samples", by.y = "row.names")
+# saveRDS(longTPM, "../1_DEA/long.TPM.RDS")
+
+gene <- "ASNS"
+LFCvalues.m <- lapply(seq_along(res_all_sh.m), function(i) {
+    df <- res_all_sh.m[[i]] %>% as.data.frame()
+    df_subset <- df[rownames(df) == gene, , drop = FALSE]
+    df_subset$treatment <- names(res_all_sh.m)[i]
+    return(df_subset)
+}) %>% bind_rows()
+
+longTPM[longTPM$geneName == gene, ] %>% TPMplot(gene, res_all_sh.m, LFCvalues.m)
+```
+

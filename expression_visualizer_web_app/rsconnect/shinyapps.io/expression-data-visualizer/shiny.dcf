@@ -1,0 +1,10 @@
+name: shiny
+title:
+username: expression-data-visualizer
+account: expression-data-visualizer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11028395
+bundleId: 8183055
+url: https://expression-data-visualizer.shinyapps.io/shiny/
+version: 1

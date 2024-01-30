@@ -6,7 +6,7 @@
 ## and conducts permutation tests on gene expression data based on different experimental conditions.
 ##
 ## Get help: tides.R -h
-## Run me: tides.R -n 1000 -o results/ -c Oxo --save_histrogram --use_all_genes
+## Run me: tides.R -n 1000 -o results/ -c Oxo --save_histrogram
 ##
 ## AUTHOR: Xavier Benedicto Molina
 ## DATE: 18/12/23
@@ -44,13 +44,6 @@ option.list <- list(
     type = "logical",
     default = FALSE,
     help = "Whether to plot out the histograms for the permutation tests"
-  ),
-  make_option(
-    c("--use_all_genes"), 
-    action = "store_true",
-    type = "logical",
-    default = FALSE,
-    help = "Whether to use all genes that comprise a metabolic taks or just the essential ones"
   )
 )
 # Debug
@@ -95,15 +88,9 @@ if (opt$save_histogram) {
   dir.create(paste0(opt$out_dir, "/histograms/"), showWarnings = FALSE)
 }
 
-if (!opt$use_all_genes) {
-  print("Permutation test will be performed only with essential genes!")
-  essential.genes <- readRDS("data/gene.to.tasks.long.RDS")
-  all.tasks <- levels(essential.genes$Task)
-} else {
-  print("Permutation test will be performed with all genes!")
-  all.genes <- readRDS("data/pfba_genes_to_reactions_to_tasks.RDS")
-  all.tasks <- levels(all.genes$task.id)
-}
+# Obtaining anchor genes
+anchor.genes <- readRDS("data/gene.to.tasks.long.RDS")
+all.tasks <- levels(anchor.genes$Task)
 
 print(paste0("Starting permutation test with n = ", opt$n_permutations))
 
@@ -129,7 +116,7 @@ final.results <- foreach(
 ) %dopar% {
   
   if (!opt$use_all_genes) {
-    results <- essential.genes %>% filter(Task == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
+    results <- anchor.genes %>% filter(Task == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
   } else {
     results <- all.genes %>% filter(task.id == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
   }
@@ -138,7 +125,7 @@ final.results <- foreach(
   lfc.sd <- sd(results$log2FoldChange)
   permutations <- tibble(treatment.id = character(), task.id = character(), mean = numeric())
   
-  # Inner loop using purrr::map_dbl
+  # Inner loop using map_dbl
   permutations <- permutations %>% add_row(
     treatment.id = treatment, 
     task.id = task, 

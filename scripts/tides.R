@@ -115,11 +115,8 @@ final.results <- foreach(
   .packages = c("tidyverse")
 ) %dopar% {
   
-  if (!opt$use_all_genes) {
-    results <- anchor.genes %>% filter(Task == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
-  } else {
-    results <- all.genes %>% filter(task.id == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
-  }
+  # Reading DEA results for given task
+  results <- anchor.genes %>% filter(Task == task) %>% merge(all.results %>% filter(Treatment == treatment), by = "Symbols")
   
   lfc.mean <- mean(results$log2FoldChange)
   lfc.sd <- sd(results$log2FoldChange)
